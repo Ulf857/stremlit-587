@@ -14,7 +14,7 @@ tickerSymbol = 'BTC-USD'
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
-tickerDf = tickerData.history(period='1d', start='2023-4-20', end='2024-4-20')
+tickerDf = tickerData.history(period='1d', start='2023-4-20')
 # Open	High	Low	Close	Volume	Dividends	Stock Splits
 
 st.line_chart(tickerDf.Close)
