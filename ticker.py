@@ -2,9 +2,9 @@ import yfinance as yf
 import streamlit as st
 
 st.write("""
-# Simple Stock Price App
+# Einfache Kursapp
 
-Shown are the stock closing price and volume of Bitcoin in USD!
+Gezeigt wird der BTC-Kurs in USD!
 
 """)
 
