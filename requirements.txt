@@ -1,3 +1,6 @@
+openpyxl
 pandas
+plotly
+plotly-express
 streamlit
 yfinance
